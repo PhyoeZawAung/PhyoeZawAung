@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "phyoezawaung9696@gmail.com",
     linkedin: "https://www.linkedin.com/in/phyoe-zaw-aung-1078a22b8/",
     github: "https://github.com/PhyoeZawAung",
-    dowonload: "/resume/phoye_zaw_aung_resume_2025.pdf"
+    dowonload: "/PhyoeZawAung/resume/phoye_zaw_aung_resume_2025.pdf"
   },
   aboutMe:
     "Aspiring web developer with a passion for learning and problem-solving. Skilled in various programming languages and frameworks. Committed to continuous growth and contributing to innovative projects.",
