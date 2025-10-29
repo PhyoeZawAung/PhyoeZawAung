@@ -27,69 +27,84 @@ export const siteConfig = {
     "JQuery",
     "MySql",
     "PostgresSql",
-    "AWS", 
-    "Docker"],
+    "AWS",
+    "Docker",
+  ],
   projects: [
     {
       name: "Bulletin Board",
       description:
         "Single page web application with basic authentication and CRUD operations for users and posts.",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["Laravel 8", "Vue 2", "Vuex", "Vue Router", "Mysql", "Bootstrap"],
+      skills: [
+        "Laravel 8",
+        "Vue 2",
+        "Vuex",
+        "Vue Router",
+        "Mysql",
+        "Bootstrap",
+      ],
       responsibility: [
         "Designed and implemented user authentication and authorization",
         "Developed user interfaces and managed state with Vue2 and Vuex",
-        "Created RESTful APIs with Laravel for CRUD operations"
-      ]
+        "Created RESTful APIs with Laravel for CRUD operations",
+      ],
     },
     {
       name: "Survey System",
       description:
         "Single page web application for creating surveys within a company.",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["Laravel 8", "Vue 3(Option API)", "Pinia", "Vue Router", "MySql", "Tailwind Css"],
+      skills: [
+        "Laravel 8",
+        "Vue 3(Option API)",
+        "Pinia",
+        "Vue Router",
+        "MySql",
+        "Tailwind Css",
+      ],
       responsibility: [
         "Implemented user authentication, authorization, and role management",
         "Developed user interface with Vue3 and state management with Pinia",
         "Created responsive UI with Tailwind CSS",
-        "Developed RESTful APIs with Laravel for CRUD operations"
-      ]
+        "Developed RESTful APIs with Laravel for CRUD operations",
+      ],
     },
     {
       name: "Kitchen Furniture Price Estimation Project",
       description:
         "Web application to estimate the price of kitchen furniture in a shop",
-      link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["Laravel 8", "Jquery", "MySql", "Minio"],
-      responsibility:[
+      responsibility: [
         "Fixed data handling in sessions",
         "Managed browser tab control and session modes (create, update, view)",
-        "Ensured responsive design"
-      ]
+        "Ensured responsive design",
+      ],
     },
     {
       name: "Game Management System",
-      description:
-        "Game Management System",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["Laravel 9", "Vue3 (Composition API)", "PostgresSql", "Bootstrap Vue", "Laravel Echo", "Laravel WebSocket", "Inertia"],
+      description: "Game Management System",
+      skills: [
+        "Laravel 9",
+        "Vue3 (Composition API)",
+        "PostgresSql",
+        "Bootstrap Vue",
+        "Laravel Echo",
+        "Laravel WebSocket",
+        "Inertia",
+      ],
       responsibility: [
         "Designed screens with Figma",
         "Created channels for messaging and gameplay",
         "Developed admin and player dashboards",
         "Implemented real-time messaging with notifications",
-        "Managed CRUD operations for game player management"
-      ]
+        "Managed CRUD operations for game player management",
+      ],
     },
     {
       name: "Employee Management System",
       description:
         "Manage members and resources of a company, and sell resources to improve member skills.",
-      link: "https://extensionkit.io/?ref=devportfolio",
-    skills: ["Laravel 9", "JQuery", "MySql"],
-    responsibility: [
-      "•	Created member and message CRUD operations"
-    ]
+      skills: ["Laravel 9", "JQuery", "MySql"],
+      responsibility: ["•	Created member and message CRUD operations"],
     },
     {
       name: "School Management System",
@@ -104,22 +119,21 @@ export const siteConfig = {
         "Built APIs for feature checking",
         "Created CSV download functionality for teaching materials",
         "Fixed bugs",
-        "Write clean Unit Test document"
-      ]
+        "Write clean Unit Test document",
+      ],
     },
     {
       name: "Waste Classification System",
-      description:
-        "Calssified waste base on the input image or video,",
+      description: "Calssified waste base on the input image or video,",
       link: "https://github.com/PhyoeZawAung/waste_classification_system",
-      skills: ["Python", "YOLO8","Tkinter"],
+      skills: ["Python", "YOLO8", "Tkinter"],
     },
     {
       name: "Traffic Sign Detection",
       description: "Detect and classify the traffic sign",
       link: "https://github.com/PhyoeZawAung/TrafficSignDetection",
-      skills: ["Python", "YOLO8", "Streamlit"]
-    }
+      skills: ["Python", "YOLO8", "Streamlit"],
+    },
   ],
   experience: [
     {
@@ -138,9 +152,7 @@ export const siteConfig = {
       school: "University Of Technology(Yatanarbon Cyber City)",
       degree: "Bachelor of Information Science Technology",
       dateRange: "2018 - 2025",
-      achievements: [
-        "First Price Of Second Year Web Development Project",
-      ],
+      achievements: ["First Price Of Second Year Web Development Project"],
     },
     {
       school: "BIB online Training",
@@ -151,7 +163,7 @@ export const siteConfig = {
         "HTML,CSS & JQuery(Responsive Templates)",
         "React Native Tutorials",
         "React Native CRUD Assignments",
-        "Final Group React Native Project"
+        "Final Group React Native Project",
       ],
     },
     {
