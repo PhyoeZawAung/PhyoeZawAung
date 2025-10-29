@@ -7,5 +7,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://PhyoeZawAung.github.io"
+  site: "https://phyoezawaung.github.io",
+  base: '/PhyoeZawAung',
 });
