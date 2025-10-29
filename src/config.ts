@@ -1,12 +1,13 @@
 export const siteConfig = {
   name: "Phyoe Zaw Aung",
-  title: "Web Developer",
+  title: "Fullstack Web Developer | AI Engineer",
   description: "Portfolio website of Phyoe Zaw Aung",
   accentColor: "#1d4ed8",
   social: {
     email: "phyoezawaung9696@gmail.com",
     linkedin: "https://www.linkedin.com/in/phyoe-zaw-aung-1078a22b8/",
     github: "https://github.com/PhyoeZawAung",
+    dowonload: "/resume/phoye_zaw_aung_resume_2025.pdf"
   },
   aboutMe:
     "Aspiring web developer with a passion for learning and problem-solving. Skilled in various programming languages and frameworks. Committed to continuous growth and contributing to innovative projects.",
@@ -40,7 +41,7 @@ export const siteConfig = {
         "Vue 2",
         "Vuex",
         "Vue Router",
-        "Mysql",
+        "MySql",
         "Bootstrap",
       ],
       responsibility: [
@@ -81,7 +82,7 @@ export const siteConfig = {
     },
     {
       name: "Game Management System",
-      description: "Game Management System",
+      description: "Real-time mjltiplayer quiz game with group messaging",
       skills: [
         "Laravel 9",
         "Vue3 (Composition API)",
@@ -104,12 +105,15 @@ export const siteConfig = {
       description:
         "Manage members and resources of a company, and sell resources to improve member skills.",
       skills: ["Laravel 9", "JQuery", "MySql"],
-      responsibility: ["•	Created member and message CRUD operations"],
+      responsibility: ["Created member and message CRUD operations"],
     },
     {
       name: "School Management System",
       description:
-        "School system with roles for teachers, parents, and students to manage teaching materials and communication. Managing the school teaching material such as textbooks, teaching videos, video watching history and students’ monthly records. ",
+        `Managed private schools which are registered to this system, include managing of schools,
+        teachers, parents, students, teaching materials, and communications between them. Teaching
+        material include textbooks, teaching videos, video watching history and students’ monthly
+        records. `,
       link: "https://www.hoperoom.jp/",
       skills: ["Laravel 9", "Vue3(Composition API)", "MySql", "Tailwind Css"],
       responsibility: [
@@ -121,6 +125,20 @@ export const siteConfig = {
         "Fixed bugs",
         "Write clean Unit Test document",
       ],
+    },
+    {
+      name: "Messenger Clone Application",
+      description: "One to one or Group Messaging mobile application",
+      skills: [
+        "React Native",
+        "Firebase"
+      ],
+      responsibility: [
+        "Lead the project",
+        "Screen Designing",
+        "Creating real time messaging and user active status",
+      ]
+
     },
     {
       name: "Waste Classification System",
@@ -149,7 +167,7 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Of Technology(Yatanarbon Cyber City)",
+      school: "University Of Technology(Yatanarpon Cyber City)",
       degree: "Bachelor of Information Science Technology",
       dateRange: "2018 - 2025",
       achievements: ["First Price Of Second Year Web Development Project"],
