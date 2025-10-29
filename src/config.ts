@@ -1,91 +1,175 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Phyoe Zaw Aung",
+  title: "Web Developer",
+  description: "Portfolio website of Phyoe Zaw Aung",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "phyoezawaung9696@gmail.com",
+    linkedin: "https://www.linkedin.com/in/phyoe-zaw-aung-1078a22b8/",
+    github: "https://github.com/PhyoeZawAung",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Aspiring web developer with a passion for learning and problem-solving. Skilled in various programming languages and frameworks. Committed to continuous growth and contributing to innovative projects.",
+  skills: [
+    "HTML",
+    "CSS",
+    "php",
+    "java",
+    "Javascript",
+    "Python",
+    "Laravel",
+    "Vue",
+    "React",
+    "ReactNative",
+    "Astro",
+    "Strapi",
+    "Node.js",
+    "JQuery",
+    "MySql",
+    "PostgresSql",
+    "AWS", 
+    "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Bulletin Board",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Single page web application with basic authentication and CRUD operations for users and posts.",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Laravel 8", "Vue 2", "Vuex", "Vue Router", "Mysql", "Bootstrap"],
+      responsibility: [
+        "Designed and implemented user authentication and authorization",
+        "Developed user interfaces and managed state with Vue2 and Vuex",
+        "Created RESTful APIs with Laravel for CRUD operations"
+      ]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Survey System",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Single page web application for creating surveys within a company.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Laravel 8", "Vue 3(Option API)", "Pinia", "Vue Router", "MySql", "Tailwind Css"],
+      responsibility: [
+        "Implemented user authentication, authorization, and role management",
+        "Developed user interface with Vue3 and state management with Pinia",
+        "Created responsive UI with Tailwind CSS",
+        "Developed RESTful APIs with Laravel for CRUD operations"
+      ]
     },
     {
-      name: "ExtensionKit",
+      name: "Kitchen Furniture Price Estimation Project",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Web application to estimate the price of kitchen furniture in a shop",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Laravel 8", "Jquery", "MySql", "Minio"],
+      responsibility:[
+        "Fixed data handling in sessions",
+        "Managed browser tab control and session modes (create, update, view)",
+        "Ensured responsive design"
+      ]
     },
+    {
+      name: "Game Management System",
+      description:
+        "Game Management System",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Laravel 9", "Vue3 (Composition API)", "PostgresSql", "Bootstrap Vue", "Laravel Echo", "Laravel WebSocket", "Inertia"],
+      responsibility: [
+        "Designed screens with Figma",
+        "Created channels for messaging and gameplay",
+        "Developed admin and player dashboards",
+        "Implemented real-time messaging with notifications",
+        "Managed CRUD operations for game player management"
+      ]
+    },
+    {
+      name: "Employee Management System",
+      description:
+        "Manage members and resources of a company, and sell resources to improve member skills.",
+      link: "https://extensionkit.io/?ref=devportfolio",
+    skills: ["Laravel 9", "JQuery", "MySql"],
+    responsibility: [
+      "•	Created member and message CRUD operations"
+    ]
+    },
+    {
+      name: "School Management System",
+      description:
+        "School system with roles for teachers, parents, and students to manage teaching materials and communication. Managing the school teaching material such as textbooks, teaching videos, video watching history and students’ monthly records. ",
+      link: "https://www.hoperoom.jp/",
+      skills: ["Laravel 9", "Vue3(Composition API)", "MySql", "Tailwind Css"],
+      responsibility: [
+        "Updated the frameworks (Laravel 8 to Laravel 10) (Vue2 to Vue3) (Vuetify2 to Vuetify3)",
+        "Implemented pretest question creation and QR code generation",
+        "Developed feature enable/disable functionalities and route disable middleware",
+        "Built APIs for feature checking",
+        "Created CSV download functionality for teaching materials",
+        "Fixed bugs",
+        "Write clean Unit Test document"
+      ]
+    },
+    {
+      name: "Waste Classification System",
+      description:
+        "Calssified waste base on the input image or video,",
+      link: "https://github.com/PhyoeZawAung/waste_classification_system",
+      skills: ["Python", "YOLO8","Tkinter"],
+    },
+    {
+      name: "Traffic Sign Detection",
+      description: "Detect and classify the traffic sign",
+      link: "https://github.com/PhyoeZawAung/TrafficSignDetection",
+      skills: ["Python", "YOLO8", "Streamlit"]
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Metateam Myanmar",
+      title: "Junior Web Developer",
+      dateRange: "Jan 2023 - Jun 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed and maintained web applications using modern technologies",
+        "Collaborated with team menbers to deliver high-quality projects",
+        "Implelented features based on client requirements",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University Of Technology(Yatanarbon Cyber City)",
+      degree: "Bachelor of Information Science Technology",
+      dateRange: "2018 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "First Price Of Second Year Web Development Project",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
+      school: "BIB online Training",
+      degree: "Fullstack Web Development",
       dateRange: "2019",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "HTML & CSS (Wireframe & Non-responsive Template)",
+        "HTML,CSS & JQuery(Responsive Templates)",
+        "React Native Tutorials",
+        "React Native CRUD Assignments",
+        "Final Group React Native Project"
+      ],
+    },
+    {
+      school: "Simbolo",
+      degree: "Introduction To Computer Vision Using Python",
+      dateRange: "23-12-2023",
+      achievements: [
+        "create a waste classification system",
+        "Math For Machine Learning",
+      ],
+    },
+    {
+      school: "Simbolo",
+      degree: "Introduction To Artificial Intelligence",
+      dateRange: "10-7-2022",
+      achievements: [
+        "create a snake classification system",
+        "Best Developemnt Project Award",
       ],
     },
   ],
