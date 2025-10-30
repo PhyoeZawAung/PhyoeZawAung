@@ -1,21 +1,22 @@
 export const siteConfig = {
   name: "Phyoe Zaw Aung",
-  title: "Fullstack Web Developer | AI Engineer",
+  title: "Fullstack Web Developer",
   description: "Portfolio website of Phyoe Zaw Aung",
   accentColor: "#1d4ed8",
   social: {
     email: "phyoezawaung9696@gmail.com",
     linkedin: "https://www.linkedin.com/in/phyoe-zaw-aung-1078a22b8/",
     github: "https://github.com/PhyoeZawAung",
+    phone: "09678926662",
     dowonload: "/PhyoeZawAung/resume/phoye_zaw_aung_resume_2025.pdf"
   },
   aboutMe:
-    "Aspiring web developer with a passion for learning and problem-solving. Skilled in various programming languages and frameworks. Committed to continuous growth and contributing to innovative projects.",
+    "Aspiring developer with a passion for learning and problem-solving, skilled in various programming languages and frameworks. Committed to continuous growth and contributing to innovative projects.",
   skills: [
     "HTML",
     "CSS",
-    "php",
-    "java",
+    "Php",
+    "Java",
     "Javascript",
     "Python",
     "Laravel",
@@ -38,7 +39,7 @@ export const siteConfig = {
         "Single page web application with basic authentication and CRUD operations for users and posts.",
       skills: [
         "Laravel 8",
-        "Vue 2",
+        "Vue2",
         "Vuex",
         "Vue Router",
         "MySql",
@@ -49,6 +50,7 @@ export const siteConfig = {
         "Developed user interfaces and managed state with Vue2 and Vuex",
         "Created RESTful APIs with Laravel for CRUD operations",
       ],
+      img_url: "/PhyoeZawAung/images/bulletin_board.svg"
     },
     {
       name: "Survey System",
@@ -56,7 +58,7 @@ export const siteConfig = {
         "Single page web application for creating surveys within a company.",
       skills: [
         "Laravel 8",
-        "Vue 3(Option API)",
+        "Vue3 (Option API)",
         "Pinia",
         "Vue Router",
         "MySql",
@@ -68,21 +70,23 @@ export const siteConfig = {
         "Created responsive UI with Tailwind CSS",
         "Developed RESTful APIs with Laravel for CRUD operations",
       ],
+      img_url: "/PhyoeZawAung/images/survey.svg"
     },
     {
       name: "Kitchen Furniture Price Estimation Project",
       description:
         "Web application to estimate the price of kitchen furniture in a shop",
-      skills: ["Laravel 8", "Jquery", "MySql", "Minio"],
+      skills: ["Laravel 8", "JQuery", "MySql", "Minio"],
       responsibility: [
         "Fixed data handling in sessions",
         "Managed browser tab control and session modes (create, update, view)",
         "Ensured responsive design",
       ],
+      img_url: "/PhyoeZawAung/images/kitchen.svg"
     },
     {
       name: "Game Management System",
-      description: "Real-time mjltiplayer quiz game with group messaging",
+      description: "Real-time multiplayer quiz game with group messaging",
       skills: [
         "Laravel 9",
         "Vue3 (Composition API)",
@@ -99,6 +103,7 @@ export const siteConfig = {
         "Implemented real-time messaging with notifications",
         "Managed CRUD operations for game player management",
       ],
+      img_url: "/PhyoeZawAung/images/group.svg"
     },
     {
       name: "Employee Management System",
@@ -106,6 +111,7 @@ export const siteConfig = {
         "Manage members and resources of a company, and sell resources to improve member skills.",
       skills: ["Laravel 9", "JQuery", "MySql"],
       responsibility: ["Created member and message CRUD operations"],
+      img_url: "/PhyoeZawAung/images/employee_management.svg"
     },
     {
       name: "School Management System",
@@ -113,11 +119,11 @@ export const siteConfig = {
         `Managed private schools which are registered to this system, include managing of schools,
         teachers, parents, students, teaching materials, and communications between them. Teaching
         material include textbooks, teaching videos, video watching history and students’ monthly
-        records. `,
+        records.`,
       link: "https://www.hoperoom.jp/",
-      skills: ["Laravel 9", "Vue3(Composition API)", "MySql", "Tailwind Css"],
+      skills: ["Laravel 9", "Vue3 (Composition API)", "MySql", "Tailwind Css"],
       responsibility: [
-        "Updated the frameworks (Laravel 8 to Laravel 10) (Vue2 to Vue3) (Vuetify2 to Vuetify3)",
+        "Updated the frameworks (Laravel 8 to Laravel 10), (Vue2 to Vue3), (Vuetify2 to Vuetify3)",
         "Implemented pretest question creation and QR code generation",
         "Developed feature enable/disable functionalities and route disable middleware",
         "Built APIs for feature checking",
@@ -125,6 +131,7 @@ export const siteConfig = {
         "Fixed bugs",
         "Write clean Unit Test document",
       ],
+      img_url: "/PhyoeZawAung/images/teaching.svg"
     },
     {
       name: "Messenger Clone Application",
@@ -137,7 +144,8 @@ export const siteConfig = {
         "Lead the project",
         "Screen Designing",
         "Creating real time messaging and user active status",
-      ]
+      ],
+      img_url: "/PhyoeZawAung/images/messenger.svg"
 
     },
     {
@@ -160,7 +168,7 @@ export const siteConfig = {
       dateRange: "Jan 2023 - Jun 2024",
       bullets: [
         "Developed and maintained web applications using modern technologies",
-        "Collaborated with team menbers to deliver high-quality projects",
+        "Collaborated with team members to deliver high-quality projects",
         "Implelented features based on client requirements",
       ],
     },
